@@ -1,0 +1,2 @@
+
+ws.initWorkspace({ toolbox: toolbox });
