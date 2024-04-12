@@ -11,9 +11,10 @@
 		<link rel="shortcut icon" href="img/ti.png">
 		<link id="theme-style" rel="stylesheet" href="css/theme.css">
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
-		<script src="https://unpkg.com/blockly"></script>
+		<script src="https://lightcdn.github.io/threejs/importmap.js"></script>
+		<script type="module" src="https://lightcdn.github.io/threejs/import.js"></script>
+
+		<script src="https://unpkg.com/blockly@10"></script>
 
 	</head>
 	<body>
@@ -41,12 +42,14 @@
 
 		<div style="display:none" id="codeDiv"></div>
 		
-		<!--<script src="/threeblockly.github.io/js/eg.js"></script>-->
-		<!--<script type="module" src="/dev-threeblockly/threeblockly.js"></script>-->
-		<!--<script src="/threeblockly/threeblockly.js"></script>-->
+		<!--<script src="../threeblockly.github.io/js/eg.js"></script>
+		<script src="../threejs/setup.js"></script>-->
+		<!--<script type="module" src="../dev-threeblockly/threeblockly.js"></script>-->
+		<!--<script src="../threeblockly/threeblockly.js"></script>-->
 
 		<script src="https://threeblockly.github.io/js/eg.js"></script>
-		<script src="https://threeblockly.github.io/threeblockly/threeblockly.js"></script>
+		<script defer src="https://threeblockly.github.io/threeblockly/threeblockly.js"></script>
+		<script defer src="https://lightcdn.github.io/threejs/setup.js"></script>
 
 		<script defer src="../threeinventor/js/toolbox.js"></script>
 		<script defer src="index.js"></script>
